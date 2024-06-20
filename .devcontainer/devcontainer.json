@@ -1,1 +1,7 @@
 .devcontainer/devcontainer.json
+{
+  "name": "Codespace for Skills!",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "remoteUser": "codespace",
+  "overrideCommand": false
+}
