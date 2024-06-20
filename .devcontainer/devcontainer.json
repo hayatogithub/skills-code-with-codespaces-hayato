@@ -3,5 +3,19 @@
   "name": "Codespace for Skills!",
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
   "remoteUser": "codespace",
-  "overrideCommand": false
+  "overrideCommand": false,
+// コンテナ作成時にインストールする拡張機能のIDを追加
+"customizations": {
+    "vscode": {
+        "extensions": [
+            "GitHub.copilot"
+        ]
+    },
+    "codespaces": {
+        "openFiles": [
+            "codespace.md"
+        ]
+    }
+}
+
 }
